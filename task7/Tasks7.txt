@@ -1,46 +1,46 @@
 
-POST https://developers.facebook.com/docs/
- 200 OK       346.25 kB       625 ms
+HEAD https://developers.facebook.com/docs/
+ 200 OK       0 bytes       913 ms
 
 View Request View Response
 HEADERS
-Access-Control-Allow-Credentials: true ---- response header indicates whether or not the response to the request can be exposed to the page.
+Access-Control-Allow-Credentials: true -----response header indicates whether or not the response to the request can be exposed to the page.
 
-Access-Control-Allow-Methods: OPTIONS -----response header specifies the method or methods allowed when accessing the resource in response to a preflight request.
+Access-Control-Allow-Methods: OPTIONS ----response header specifies the method or methods allowed when accessing the resource in response to a preflight request.
 
-Access-Control-Allow-Origin: https://developers.facebook.com ---response header indicates whether the response can be shared with resources with the given origin.
+Access-Control-Allow-Origin: https://developers.facebook.com ------response header indicates whether the response can be shared with resources with the given origin.
 
-Access-Control-Expose-Headers: X-FB-Debug, X-Loader-Length ----response header indicates which headers can be exposed as part of the response by listing their names.
+Access-Control-Expose-Headers: X-FB-Debug, X-Loader-Length ----- response header indicates which headers can be exposed as part of the response by listing their names.
 
-Cache-Control: private, no-cache, no-store, must-revalidate ---- general-header field is used to specify directives for caching mechanisms in both requests and responses.
+Cache-Control: private, no-cache, no-store, must-revalidate ----- general-header field is used to specify directives for caching mechanisms in both requests and responses. Caching directives are unidirectional, meaning that a given directive in a request is not implying that the same directive is to be given in the response.
 
-Connection: keep-alive ----general header controls whether or not the network connection stays open after the current transaction finishes.
+Connection: keep-alive -----eneral header controls whether or not the network connection stays open after the current transaction finishes. If the value sent is keep-alive, the connection is persistent and not closed, allowing for subsequent requests to the same server to be done.
 
-Content-Encoding: gzip ----entity header is used to compress the media-type. When present, its value indicates which encodings were applied to the entity-body.
+Content-Encoding: gzip ---entity header is used to compress the media-type. When present, its value indicates which encodings were applied to the entity-body. It lets the client know, how to decode in order to obtain the media-type referenced by the Content-Type header.
 
-Content-Type: text/html; charset=UTF-8 ----entity header is used to indicate the media type of the resource.
+Content-Type: text/html; charset=UTF-8 -----entity header is used to indicate the media type of the resource.
 
-Date: Sat, 24 Mar 2018 14:38:25 GMT ----general HTTP header contains the date and time at which the message was originated.
+In responses, a Content-Type header tells the client what the content type of the returned content actually is.
+
+Date: Sat, 24 Mar 2018 20:13:37 GMT -----general HTTP header contains the date and time at which the message was originated.
 
 Expires: Sat, 01 Jan 2000 00:00:00 GMT ----header contains the date/time after which the response is considered stale.
 
-Pragma: no-cache  ----HTTP/1.0 general header is an implementation-specific header that may have various effects along the request-response chain
+Invalid dates, like the value 0, represent a date in the past and mean that the resource is already expired.
 
-Strict-Transport-Security: max-age=15552000; preload ------ response header (often abbreviated as HSTS)  lets a web site tell browsers that it should only be accessed using HTTPS, instead of using HTTP.
+Pragma: no-cache ----HTTP/1.0 general header is an implementation-specific header that may have various effects along the request-response chain. It is used for backwards compatibility with HTTP/1.0 caches where the Cache-Control HTTP/1.1 header is not yet present.
 
-Transfer-Encoding: chunked ---- header specifies the form of encoding used to safely transfer the entity to the user.
+Strict-Transport-Security: max-age=15552000; preload ---- response header (often abbreviated as HSTS)  lets a web site tell browsers that it should only be accessed using HTTPS, instead of using HTTP.
 
-Vary: Origin, Accept-Encoding  -----HTTP response header determines how to match future request headers to decide whether a cached response can be used rather than requesting a fresh one from the origin server.
+Vary: Origin, Accept-Encoding ------HTTP response header determines how to match future request headers to decide whether a cached response can be used rather than requesting a fresh one from the origin server. 
 
-X-Content-Type-Options: nosniff ----response HTTP header is a marker used by the server to indicate that the MIME types advertised in the Content-Type headers should not be changed and be followed.
+X-Content-Type-Options: nosniff ----response HTTP header is a marker used by the server to indicate that the MIME types advertised in the Content-Type headers should not be changed and be followed. 
 
-X-Fb-Debug: gEE5s0nmyWmzQe3zN127PhYCkpUoDsJU3ojhrc8QgGdSdTfYgevViyw6QM6dprq9oF4CjcJDIo8IOIjhkWsxgA==
+X-Fb-Debug: 28TBeboykDXUjo7G5LhIrOiRj2odKrkjGI9QT3xc00483I2bQV25CEATB9Tc3qhHHlBFV7f898nEmF4gcb9Zsw==
 
-X-Frame-Options: DENY -----response header can be used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe> or <object> . 
+X-Frame-Options: DENY ----HTTP response header can be used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe> or <object> .
 
-X-Xss-Protection: 0 -----response header is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks.
+X-Xss-Protection: 0 ------response header is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks. 
 
-BODY view formatted
-<!DOCTYPE html>
-<html lang="en" id="facebook" class="no_js">
-<head><meta charset="utf-8" /><meta name="referrer" content="default" id="meta_referrer" /><script>......
+BODY view raw
+(empty)
