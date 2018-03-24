@@ -1,29 +1,52 @@
-GET https://work.ua/
- 301 Moved Permanently       178 bytes       676 ms
-________________________________________
+
+GET https://developers.google.com/maps/?hl=ru
+ 200 OK       47.11 kB       454 ms
+
 View Request View Response
 HEADERS
-Connection: keep-alive ----- general header controls whether or not the network connection stays open after the current transaction finishes.
+Alt-Svc: hq=":443"; ma=2592000; quic=51303432; quic=51303431; quic=51303339; quic=51303335,quic=":443"; ma=2592000; v="42,41,39,35"
 
-Content-Length: 178--------------- entity header is indicating the size of the entity-body, in bytes, sent to the recipient.
+Cache-Control: must_revalidate, public, max-age=3600 ----general-header field is used to specify directives for caching mechanisms in both requests and responses.
 
-Content-Type: text/html---------- header tells the client what the content type of the returned content actually is.
+Content-Language: ru  -----entity header is used to describe the language(s) intended for the audience, so that it allows a user to differentiate according to the users' own preferred language.
 
-Date: Wed, 21 Mar 2018 20:51:33 GMT	 ------- general HTTP header contains the date and time at which the message was originated.
+Content-Length: 51452 ----entity header is indicating the size of the entity-body, in bytes, sent to the recipient.
 
-Location: https://www.work.ua/ ------- response header indicates the URL to redirect a page to
+Content-Type: text/html; charset=utf-8  -----entity header is used to indicate the media type of the resource.
 
-Server: nginx------ header contains information about the software used by the origin server to handle the request
-BODYview raw
-<html>
-  <head>
-    <title>301 Moved Permanently</title>
-  </head>
-  <body bgcolor="white">
-    <center>
-      <h1>301 Moved Permanently</h1>
-    </center>
-    <hr>
-      <center>nginx</center>
-    </body>
-  </html>
+
+
+Date: Sat, 24 Mar 2018 14:37:16 GMT  ---general HTTP header contains the date and time at which the message was originated.
+
+Expires: Sat, 24 Mar 2018 15:37:16 GMT -------contains the date/time after which the response is considered stale.
+
+Last-Modified: Tue, 20 Jun 2017 15:22:31 GMT -----response HTTP header contains the date and time at which the origin server believes the resource was last modified.
+
+Server: Google Frontend  -----header contains information about the software used by the origin server to handle the request.
+
+Strict-Transport-Security: max-age=31536000; includeSubdomains  -----response header (often abbreviated as HSTS)  lets a web site tell browsers that it should only be accessed using HTTPS, instead of using HTTP.
+
+Vary: Accept-Language  ---- HTTP response header determines how to match future request headers to decide whether a cached response can be used rather than requesting a fresh one from the origin server.
+
+X-Cloud-Trace-Context: c06433c5a7d305fdd786b6f61eacfe0c
+
+X-Content-Type-Options: nosniff ----response HTTP header is a marker used by the server to indicate that the MIME types advertised in the Content-Type headers should not be changed and be followed. 
+
+X-Frame-Options: SAMEORIGIN ---- HTTP response header can be used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe> or <object> .
+
+X-Xss-Protection: 1; mode=block -----response header is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks.
+
+BODY view formatted
+
+
+
+
+<!DOCTYPE html><html lang="ru"
+      class="chekov"><head><script>var a=window.devsite||{};window.devsite=a;a.readyCallbacks=[];window.devsite.readyCallbacks=a.readyCallbacks;a.ready=function(b){a.readyCallbacks.push(b)};window.devsite.ready=a.ready;
+</script><meta charset="utf-8"><meta name="xsrf_token" content="qRRxtUi_ZJ65NAjfxnta2U1tDuVUPSdeEdRrENNoO5s6MTUyMTkwMjIzNjE4NTE4MA" /><link rel="canonical" href="https://developers.google.com/maps/?hl=ru"><link rel="alternate" href="https://developers.google.com/maps/?hl=ko" hreflang="ko"><link rel="alternate" href="https://developers.google.com/maps/?hl=ja" hreflang="ja"><link rel="alternate" href="https://developers.google.com/maps/?hl=es" hreflang="es"><link rel="alternate" href="https://developers.google.com/maps/?hl=fr" hreflang="fr"><link rel="alternate" href="https://developers.google.com/maps/?hl=pt-br" hreflang="pt-br"><link rel="alternate" href="https://developers.google.com/maps/?hl=ru" hreflang="ru"><link rel="alternate" href="https://developers.google.com/maps/?hl=de" hreflang="de"><link rel="alternate" href="https://developers.google.com/maps/?hl=id" hreflang="id"><link rel="alternate" href="https://developers.google.com/maps/?hl=zh-tw" hreflang="zh-Hant"><link rel="alternate" href="https://developers.google.com/maps/?hl=zh-cn" hreflang="zh-Hans"><link rel="alternate" href="https://developers.google.com/maps/" hreflang="en"><link rel="alternate" href="https://developers.google.cn/maps/?hl=ko" hreflang="ko-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=ja" hreflang="ja-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=es" hreflang="es-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=fr" hreflang="fr-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=pt-br" hreflang="pt-br-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=ru" hreflang="ru-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=de" hreflang="de-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=id" hreflang="id-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=zh-tw" hreflang="zh-Hant-cn"><link rel="alternate" href="https://developers.google.cn/maps/?hl=zh-cn" hreflang="zh-Hans-cn"><link rel="alternate" href="https://developers.google.cn/maps/" hreflang="en-cn"><link rel="alternate" href="https://developers.google.com/maps/" hreflang="x-default"><link rel="shortcut icon" href="https://developers.google.com/_static/a3b4f28066/images/favicon.png?hl=ru"><link rel="apple-touch-icon" href="https://developers.google.com/_static/a3b4f28066/images/touch-icon.png?hl=ru"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet"
+      
+      href="//fonts.googleapis.com/css?family=Google+Sans:400|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"
+      ><link rel="stylesheet"
+        href="https://developers.google.com/_static/a3b4f28066/css/devsite-google-blue.css?hl=ru"><link rel="search"
+        type="application/opensearchdescription+xml"
+        title="Google Developers" ......
