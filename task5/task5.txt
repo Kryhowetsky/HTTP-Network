@@ -1,0 +1,4 @@
+
+I was using Filters it helped what display in request table.
+When click on camera icon it will make a screenshots what was loaded one by one.
+This Network tab can be used to see what elemens loaded on a page first. 

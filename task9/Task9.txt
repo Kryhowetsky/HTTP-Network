@@ -1,0 +1,9 @@
+1.	facebook.com
+youtube.com
+work.ua
+rabota.ua
+flickr.com
+
+
+2.	Post used for authorizations, for web forms, for large data transfer, for request that changes the data on the server.
+

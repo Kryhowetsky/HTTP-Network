@@ -1,0 +1,57 @@
+1.	Request URL: https://www.work.ua/ua/
+
+2.	Request Method: GET
+
+3.	Status Code: 200 
+4.	Remote Address: 89.184.80.164:443
+
+5.	Referrer Policy: no-referrer-when-downgrade
+
+
+
+2.	Response Headers
+
+1.	cache-control: no-store, no-cache, must-revalidate
+
+2.	content-encoding: gzip
+3.	content-type: text/html; charset=UTF-8
+
+4.	date: Wed, 21 Mar 2018 21:07:02 GMT
+
+5.	expires: Thu, 19 Nov 1981 08:52:00 GMT
+
+6.	last-modified: Wed, 21 Mar 2018 21:07:02 GMT
+7.	pragma:  no-cache
+8.	server: nginx
+9.	status: 200
+10.	url: /ua/
+11.	vary: Accept-Encoding
+12.	vary: User-Agent
+
+
+
+
+3.	Request Headers
+1.	:authority: www.work.ua
+2.	:method: GET
+3.	:path: /ua/
+4.	:scheme: https
+5.	accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+6.	accept-encoding: gzip, deflate, br
+7.	accept-language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+8.	cache-control: max-age=0
+9.	cookie:
+_maau=r64HWFfSf0AMPdjQGjt2k3; _ga=GA1.2.1699783458.1512481391; _gac_UA-468424-1=1.1517569035.CjwKCAiAtdDTBRArEiwAPT4y-3uHB9NYbI6-2oEgnsJF-S-fxfU_FytUv-pMPiu1siCt2MnPbLCpWhoCpnoQAvD_BwE; _gac_UA-468424-6=1.1517569035.CjwKCAiAtdDTBRArEiwAPT4y-3uHB9NYbI6-2oEgnsJF-S-fxfU_FytUv-pMPiu1siCt2MnPbLCpWhoCpnoQAvD_BwE; _gid=GA1.2.192503732.1521666409; _dc_gtm_UA-468424-1=1; _dc_gtm_UA-468424-6=1; b=b
+
+10.	referer: https://www.work.ua/ua/jobs-ivano-frankivsk/
+
+11.	upgrade-insecure-requests: 1
+
+12.	user-agent:
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+
+With a HEAD request, a server will only return the headers of a resource, rather than the resource itself, this means you can find out the Content-Type or Last-Modified of a document, without downloading it itself.
+	
+The HEAD method is identical to GET except that the server MUST NOT return a message-body in the response. The metainformation contained in the HTTP headers in response to a HEAD request SHOULD be identical to the information sent in response to a GET request.
+

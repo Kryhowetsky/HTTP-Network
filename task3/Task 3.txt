@@ -1,0 +1,41 @@
+1.	list of differences between 1.0 and 1.1
+
+Byte ranges, content negotiation, chunked encoding, protocol switching, message integrity checks, digest authentication, proxy authentication, better cache management with etags, caching directives, multi-homed servers, persistent connections.
+
+2.	How to pass user-data via GET? via POST? what is the diff?
+
+Get request is safe otherwise post request is dangerous.
+
+GET requests:
+•	Can be cached;
+•	Remain in the browser history;
+•	Can be bookmarked;
+•	Should  never be used when dealing with sensitive data;
+•	Have length restriction;
+•	Should be used only to retrieve data.
+              POST requests:
+•	Are never cached;
+•	Do not remain in browser history;
+•	Cannot be bookmarked;
+•	Have no restrictions on data length.
+    If it gonna be dangerous request use POST.
+    If idempotency is undesirable   use POST.
+    If it needs to transfer a file or a large amount of data  use POST.
+    Other cases  use GET.
+
+
+3.	Few samples of websites (and cases) where POST method are used.
+
+Youtube use POST while watching live videos (streams), cause a large amount of data need to be transfer from web to client.
+
+Facebook use POST when we transfer some files (pictures, docx, videos etc.).
+
+POST also used in applications where we need to fill up some form, just like: “Name”, “Age” etc.
+
+
+
+
+
+
+
+

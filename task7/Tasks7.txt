@@ -1,0 +1,18 @@
+HEAD https://work.ua/
+ 301 Moved Permanently       0 bytes       605 ms
+________________________________________
+View Request View Response
+HEADERS
+Connection: keep-alive ----- general header controls whether or not the network connection stays open after the current transaction finishes.
+
+Content-Length: 178 --------------- entity header is indicating the size of the entity-body, in bytes, sent to the recipient.
+
+Content-Type: text/html ---------- header tells the client what the content type of the returned content actually is.
+
+Date: Wed, 21 Mar 2018 21:04:12 GMT ------- general HTTP header contains the date and time at which the message was originated.
+
+Location: https://www.work.ua/  ------response header indicates the URL to redirect a page to.
+
+Server: nginx ------ header contains information about the software used by the origin server to handle the request.
+BODYview raw
+(empty)
